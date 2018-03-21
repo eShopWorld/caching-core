@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eshopworld.Caching.Core", "src\Eshopworld.Caching.Core\Eshopworld.Caching.Core.csproj", "{CBDAD34D-1885-44B7-AA84-DEA4D13B5097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eshopworld.Caching.Core.Tests", "src\Eshopworld.Caching.Core.Tests\Eshopworld.Caching.Core.Tests.csproj", "{EBA431F4-4EDE-4638-B15C-1031A1453603}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBDAD34D-1885-44B7-AA84-DEA4D13B5097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBDAD34D-1885-44B7-AA84-DEA4D13B5097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBDAD34D-1885-44B7-AA84-DEA4D13B5097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBDAD34D-1885-44B7-AA84-DEA4D13B5097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA431F4-4EDE-4638-B15C-1031A1453603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA431F4-4EDE-4638-B15C-1031A1453603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA431F4-4EDE-4638-B15C-1031A1453603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA431F4-4EDE-4638-B15C-1031A1453603}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {885A75D9-1B28-44E9-8772-3B9C56CDFD34}
+	EndGlobalSection
+EndGlobal

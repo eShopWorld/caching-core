@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Eshopworld.Caching.Core</PackageId>
+    <version>1.0.0</version>
+  </PropertyGroup>
+
+</Project>
