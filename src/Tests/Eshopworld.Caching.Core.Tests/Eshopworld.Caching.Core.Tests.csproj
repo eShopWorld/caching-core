@@ -96,13 +96,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Eshopworld.Caching.Core\Eshopworld.Caching.Core.csproj">
-      <Project>{cbdad34d-1885-44b7-aa84-dea4d13b5097}</Project>
-      <Name>Eshopworld.Caching.Core</Name>
-    </ProjectReference>
+    <Analyzer Include="..\..\packages\xunit.analyzers.0.7.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Analyzer Include="..\..\packages\xunit.analyzers.0.7.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
+    <ProjectReference Include="..\..\Eshopworld.Caching.Core\Eshopworld.Caching.Core.csproj">
+      <Project>{fe465ecb-bdd3-4b1c-b8a0-55347a159a10}</Project>
+      <Name>Eshopworld.Caching.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
